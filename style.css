@@ -1,5 +1,4 @@
-html{
-    font-family: "Roboto";
+:root {
     --black:#000000;
     --white:#ECECEC;
     --blue:#2196F3;
@@ -9,47 +8,55 @@ html{
     --blue2:#188CE8;
     --black3:#2F303A;
     --grey2:#F5F4FA;
-    
+}
+html{
+    font-family: "Roboto";  
 }
 header{
     font-weight: 500;
+    font-size: 14px;
 }
 a {
-    color: black;
+    color: var(--black2);
 }
 a:hover {
-    color: blue;
+    color: var(--blue);
 }
 div {
-    background-color: #2F303A;
+    background-color: var(--black3);
 }
 h1 {
-    color: white;
+    color: var(--white);
     font-weight: 900;
+    font-size: 44px;
 }
 button {
-    background-color: blue;
-    color: white;
+    background-color: var(--blue);
+    color: var(--white);
     font-weight: 700;
+    font-size: 16px;
 }
 h4 {
     font-weight: 700;
+    font-size: 14px;
 }
 p {
     font-weight: 400;
+    font-size: 14px;
 }
 h2 {
     font-weight: 700;
+    font-size: 36px;
 }
-h3 {
-    font-weight: 700;
-}
-h5 {
+
+h4 {
     font-weight: 500;
+    font-size: 16px;
 }
 footer {
-    background-color: #2F303A;
+    background-color: var(--black3);
     font-weight: 400;
-    color: white;
+    color: var(--white2);
+    font-size: 14px;
 }
 
