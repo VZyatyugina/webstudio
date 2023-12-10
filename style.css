@@ -12,46 +12,65 @@
 html{
     font-family: "Roboto";  
 }
-header{
+.header{
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.17;
 }
-a {
+.header-list__item-link {
     color: var(--black2);
 }
-a:hover {
+.header-list__item-link:hover {
     color: var(--blue);
 }
-div {
+.header-block {
     background-color: var(--black3);
 }
-h1 {
+.header-block__h1 {
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.36;
 }
-button {
+.header-block__button {
     background-color: var(--blue);
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.36;
 }
-h4 {
+.benefits-table__h4 {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.17;
 }
-p {
+.benefits-table__p {
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
 }
-h2 {
+.services-block__h2 {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.17;
 }
-
-h4 {
+.team-block__h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.team-block__h4 {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.17;
+}
+.team-block__p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.team-block {
+    background-color: var(--grey2);
 }
 footer {
     background-color: var(--black3);
