@@ -9,6 +9,11 @@
     --black3:#2F303A;
     --grey2:#F5F4FA;
 }
+.container {
+    width: 800px;
+    margin: 10px auto;
+    padding: 0 15px;
+}
 html{
     font-family: "Roboto";  
 }
