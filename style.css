@@ -10,9 +10,9 @@
     --grey2:#F5F4FA;
 }
 .container {
-    width: 1170px;
-    margin: 0px auto;
-    padding: 0 15px;
+max-width:1170px;
+padding:0 15px;
+margin:0 auto;
 }
 html{
     font-family: "Roboto";  
@@ -21,6 +21,7 @@ html{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    padding: 24px 0;
 }
 .header-list__item-link {
     color: var(--black2);
@@ -30,12 +31,14 @@ html{
 }
 .header-block {
     background-color: var(--black3);
+    padding: 200px 0 280px 0;
 }
 .header-block__h1 {
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+
 }
 .header-block__button {
     background-color: var(--blue);
@@ -43,6 +46,10 @@ html{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.36;
+
+}
+.benefits-table {
+    padding: 47px 0;
 }
 .benefits-table__h4 {
     font-weight: 700;
@@ -54,10 +61,16 @@ html{
     font-size: 14px;
     line-height: 1.71;
 }
+.services-block {
+    padding: 47px 0 94px 0;
+}
 .services-block__h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+}
+.team-block {
+    padding: 94px 0;
 }
 .team-block__h2 {
     font-weight: 700;
@@ -82,5 +95,6 @@ footer {
     font-weight: 400;
     color: var(--white2);
     font-size: 14px;
+    padding: 60px 0;
 }
 

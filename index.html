@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
 </head>
-<body class="container">
+<body>
     <header class="header">
+        <div class="container">
         <img class="header-img" src="./images/WebStudio.png" alt="WebStudio">
         <nav class="header-nav">
             <ul class="header-list">
@@ -26,14 +27,16 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </header>
     <main class="main">
-        <div class="container">
             <div class="header-block">
+                <div class="container">
                 <h1 class="header-block__h1">Ефективні рішення для вашого бізнесу</h1>
                 <button class="header-block__button">Замовити послугу</button>
             </div>
-            <table class="table benefits-table">
+            </div>
+            <table class="table benefits-table container">
                 <tr class="table-tr">
                     <td class="table-td">
                         <h4 class="benefits-table__h4">УВАГА ДО ДЕТАЛЕЙ</h4>
@@ -53,7 +56,7 @@
                     </td>
                 </tr>
             </table>
-            <div class="services-block">
+            <div class="services-block container">
                 <h2 class="services-block__h2">Чим ми займаємося</h2>
                 <table class="table services-block-table">
                     <tr class="table-tr">
@@ -70,6 +73,7 @@
                 </table>
             </div>
            <div class="team-block">
+            <div class="container">
             <h2 class="team-block__h2">Наша команда</h2>
             <table class="table team-block-table">
                 <tr class="table-tr">
@@ -95,14 +99,16 @@
                     </td>
                 </tr>
             </table>
-           </div>
+        </div>
         </div>
     </main>
-            <footer class="footer">
-                <img class="footer-img" src="./images/WebStudio.png" alt="WebStudio">
-                <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
-                <p class="footer-p">info@devstudio.com</p>
-                <p class="footer-p">+38 096 111 11 11</p>
-            </footer>
+    <footer class="footer">
+        <div class="container">
+        <img class="footer-img" src="./images/WebStudio.png" alt="WebStudio">
+        <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
+        <p class="footer-p">info@devstudio.com</p>
+        <p class="footer-p">+38 096 111 11 11</p>
+    </div>
+    </footer>
 </body>
 </html>
