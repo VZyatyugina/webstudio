@@ -9,6 +9,10 @@
     --black3:#2F303A;
     --grey2:#F5F4FA;
 }
+h4,p{
+    margin: 0;
+    padding: 0;
+}
 .container {
 max-width:1170px;
 padding:0 15px;
@@ -17,11 +21,25 @@ margin:0 auto;
 html{
     font-family: "Roboto";  
 }
-.header{
+.header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     padding: 24px 0;
+}
+.header-img{
+    height: 31px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    list-style-type: none;
+}
+.header-list__item{
+    margin: auto 50px;
 }
 .header-list__item-link {
     color: var(--black2);
@@ -33,12 +51,19 @@ html{
     background-color: var(--black3);
     padding: 200px 0 280px 0;
 }
+.header-block__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 696px;
+    justify-content: center;
+}
 .header-block__h1 {
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
+    text-align: center;
 }
 .header-block__button {
     background-color: var(--blue);
@@ -46,7 +71,17 @@ html{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.36;
+}
+.table-td:first-of-type{
+    margin-left: 0;
+}
+.table-td{
+    margin-left: 30px;
 
+}
+.table-tr{
+    list-style-type: none;
+    display: flex;
 }
 .benefits-table {
     padding: 47px 0;
@@ -63,6 +98,9 @@ html{
 }
 .services-block {
     padding: 47px 0 94px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .services-block__h2 {
     font-weight: 700;
@@ -71,6 +109,17 @@ html{
 }
 .team-block {
     padding: 94px 0;
+}
+.team-block .table-td{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.team-block__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .team-block__h2 {
     font-weight: 700;
@@ -81,11 +130,13 @@ html{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
+    margin: 30px 0 10px 0;
 }
 .team-block__p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
+    margin-bottom: 30px;
 }
 .team-block {
     background-color: var(--grey2);
@@ -96,5 +147,14 @@ footer {
     color: var(--white2);
     font-size: 14px;
     padding: 60px 0;
+}
+.footer-img {
+    margin-bottom: 20px;
+}
+.footer-address {
+    margin-bottom: 9px;
+}
+.footer-p:nth-last-of-type(2){
+    margin-bottom: 9px;
 }
 
